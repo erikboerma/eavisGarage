@@ -1,9 +1,10 @@
 import React from "react";
-import { withGlobalState } from 'react-globally';
-
+// import { withGlobalState } from 'react-globally';
+import NavbarPage from "./navbar/navbar";
 
 const Home = () => (
-    
+    <NavbarPage/>
+
   
   
   
@@ -11,4 +12,4 @@ const Home = () => (
   
   
   
-  export default withGlobalState(Home);
+  export default Home;
