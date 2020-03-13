@@ -5,6 +5,8 @@ MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem
 } from "mdbreact";
 import { BrowserRouter as Router } from 'react-router-dom';
 import logo from "../../assets/eavisDoorsLogo.png";
+import "./navbarStyle.css";
+
 class NavbarPage extends Component {
 state = {
   isOpen: false
@@ -17,9 +19,9 @@ toggleCollapse = () => {
 render() {
   return (
     <Router>
-      <MDBNavbar color="grey" dark expand="md">
+      <MDBNavbar className="navbar sticky-top" color="grey" dark expand="md">
         <MDBNavbarBrand>
-          <img src={logo} />
+          <img id="logo" src={logo} />
           {/* <strong className="black-text">Eavis Garage Doors</strong> */}
         </MDBNavbarBrand>
         <MDBNavbarToggler onClick={this.toggleCollapse} />
@@ -40,7 +42,7 @@ render() {
             <MDBNavItem>
               <MDBFormInline waves>
                 <div className="md-form my-0">
-                  <h4><strong>856-228-4849<br/>
+                  <h4 id="contactInfo"><strong>856-228-4849<br/>
                   info@eavisgaragedoors.com</strong></h4>
                 </div>
               </MDBFormInline>

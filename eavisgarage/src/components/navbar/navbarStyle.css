@@ -1,0 +1,13 @@
+.navbar {
+    height: 90px;
+}
+
+#logo {
+    width: 95px;
+    height: 89px;
+}
+
+#contactInfo {
+    color: white;
+    text-align: center;
+}
