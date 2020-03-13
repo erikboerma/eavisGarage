@@ -4,7 +4,7 @@ MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggle
 MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem
 } from "mdbreact";
 import { BrowserRouter as Router } from 'react-router-dom';
-
+import logo from "../../assets/eavisDoorsLogo.png";
 class NavbarPage extends Component {
 state = {
   isOpen: false
@@ -17,9 +17,10 @@ toggleCollapse = () => {
 render() {
   return (
     <Router>
-      <MDBNavbar color="indigo" dark expand="md">
+      <MDBNavbar color="grey" dark expand="md">
         <MDBNavbarBrand>
-          <strong className="white-text">Eavis Garage Doors</strong>
+          <img src={logo} />
+          {/* <strong className="black-text">Eavis Garage Doors</strong> */}
         </MDBNavbarBrand>
         <MDBNavbarToggler onClick={this.toggleCollapse} />
         <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
@@ -28,30 +29,19 @@ render() {
               <MDBNavLink to="#!">Home</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="#!">Features</MDBNavLink>
+              <MDBNavLink to="#!">Recent Work</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="#!">Pricing</MDBNavLink>
+              <MDBNavLink to="#!">Contact Us</MDBNavLink>
             </MDBNavItem>
-            <MDBNavItem>
-              <MDBDropdown>
-                <MDBDropdownToggle nav caret>
-                  <span className="mr-2">Dropdown</span>
-                </MDBDropdownToggle>
-                <MDBDropdownMenu>
-                  <MDBDropdownItem href="#!">Action</MDBDropdownItem>
-                  <MDBDropdownItem href="#!">Another Action</MDBDropdownItem>
-                  <MDBDropdownItem href="#!">Something else here</MDBDropdownItem>
-                  <MDBDropdownItem href="#!">Something else here</MDBDropdownItem>
-                </MDBDropdownMenu>
-              </MDBDropdown>
-            </MDBNavItem>
+            
           </MDBNavbarNav>
           <MDBNavbarNav right>
             <MDBNavItem>
               <MDBFormInline waves>
                 <div className="md-form my-0">
-                  <input className="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" />
+                  <h4><strong>856-228-4849<br/>
+                  info@eavisgaragedoors.com</strong></h4>
                 </div>
               </MDBFormInline>
             </MDBNavItem>
