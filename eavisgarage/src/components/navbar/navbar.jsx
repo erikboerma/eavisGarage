@@ -5,6 +5,7 @@ MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggle
 import { BrowserRouter as Router } from 'react-router-dom';
 import logo from "../../assets/eavisDoorsLogo.png";
 import "./navbarStyle.css";
+import "../style.css";
 
 class NavbarPage extends Component {
 state = {
@@ -39,7 +40,7 @@ render() {
           </MDBNavbarNav>
           <MDBNavbarNav right>
             <MDBNavItem>
-                <div className="md-form my-0">
+                <div className="md-form my-0 Oswald">
                   <h4 id="contactInfo"><strong>Phone: 856-228-4849<br/>
                   info@eavisgaragedoors.com</strong></h4>
                 </div>
