@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import {
-MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBFormInline,
-MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem
+MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse
 } from "mdbreact";
 import { BrowserRouter as Router } from 'react-router-dom';
 import logo from "../../assets/eavisDoorsLogo.png";
@@ -40,12 +39,10 @@ render() {
           </MDBNavbarNav>
           <MDBNavbarNav right>
             <MDBNavItem>
-              <MDBFormInline waves>
                 <div className="md-form my-0">
-                  <h4 id="contactInfo"><strong>856-228-4849<br/>
+                  <h4 id="contactInfo"><strong>Phone: 856-228-4849<br/>
                   info@eavisgaragedoors.com</strong></h4>
                 </div>
-              </MDBFormInline>
             </MDBNavItem>
           </MDBNavbarNav>
         </MDBCollapse>
