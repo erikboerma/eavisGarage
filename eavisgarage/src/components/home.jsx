@@ -7,12 +7,18 @@ import ContactPage from "./contact/contactPage";
 
 const Home = () => (
     <div>
+    <div id="features" className="fix">
     
         <FeaturesPage/>
+        </div>
     <br />
+    <div id="work" className="fix">
         <MasksPage />
+        </div>
     <br />
+    <div id="contact" className="fix">
         <ContactPage />
+        </div>
     </div>
   
   );

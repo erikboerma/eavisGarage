@@ -27,14 +27,14 @@ render() {
         <MDBNavbarToggler onClick={this.toggleCollapse} />
         <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
           <MDBNavbarNav left>
-            <MDBNavItem active>
+            <MDBNavItem>
               <MDBNavLink to="#!">Home</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="#!">Recent Work</MDBNavLink>
+              <MDBNavLink to="#work">Recent Work</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="#!">Contact Us</MDBNavLink>
+              <MDBNavLink to="#contact">Contact Us</MDBNavLink>
             </MDBNavItem>
             
           </MDBNavbarNav>
