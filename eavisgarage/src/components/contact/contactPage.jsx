@@ -7,6 +7,7 @@ import {
   MDBBtn,
   MDBInput
 } from "mdbreact";
+import "./contactPage.css"
 
 const ContactPage = () => {
   return (
@@ -70,7 +71,7 @@ const ContactPage = () => {
             </li>
             <li>
               <MDBIcon icon="envelope" size="2x" className="blue-text mt-4" />
-              <p>info@eavisgaragedoors.com</p>
+              <p><a id="emailContactPage" href="mailto:info@eavisgaragedoors.com">info@eavisgaragedoors.com</a></p>
             </li>
             <li>
               <MDBIcon icon="" size="2x" className="blue-text mt-4" />

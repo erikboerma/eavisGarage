@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import {
-MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse
+MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBIcon
 } from "mdbreact";
 import { BrowserRouter as Router } from 'react-router-dom';
 import logo from "../../assets/eavisDoorsLogo.png";
@@ -41,8 +41,8 @@ render() {
           <MDBNavbarNav right>
             <MDBNavItem>
                 <div className="md-form my-0 Oswald">
-                  <h4 id="contactInfo"><strong>Phone: 856-228-4849<br/>
-                  info@eavisgaragedoors.com</strong></h4>
+                  <h5 id="contactInfo"><strong><MDBIcon icon="phone" />  856-228-4849<br/>
+                  <MDBIcon far icon="envelope" /><a id="email" href="mailto:info@eavisgaragedoors.com">  info@eavisgaragedoors.com</a></strong></h5>
                 </div>
             </MDBNavItem>
           </MDBNavbarNav>

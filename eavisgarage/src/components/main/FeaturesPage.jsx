@@ -1,5 +1,5 @@
 import React from "react";
-import { MDBRow, MDBCol, MDBIcon } from "mdbreact";
+import { MDBRow, MDBCol, MDBIcon, MDBAnimation } from "mdbreact";
 import logo from "../../assets/eavisDoorsLogo.png";
 import "../style.css";
 
@@ -7,8 +7,9 @@ const FeaturesPage = () => {
   return (
     <section className="my-5">
       <h2 className="h1-responsive font-weight-bold text-center my-5 Oswald">
-        <img src={logo} /><br />
-        Eavis Garage Door Specialists<br /><h3>Your expert in all things Garage Doors</h3>
+        <img src={logo} />
+        <br />
+        Eavis Garage Door Specialists<br /><h3>Your neighborhood Garage Door expert</h3>
       </h2>
       <p className="lead grey-text w-responsive text-center mx-auto mb-5">
         With over 65 years of experience, Eavis Garage Doors has proudly served all of South Jersey, Delaware
@@ -29,7 +30,7 @@ const FeaturesPage = () => {
             className="img-fluid"
             src={logo}
             alt=""
-          /> */}
+        /> */}
         </MDBCol>
         <MDBCol lg="10">
           <MDBRow className="mb-3">
