@@ -13,7 +13,7 @@ const FeaturesPage = () => {
       </h2>
       <p className="lead grey-text w-responsive text-center mx-auto mb-5">
         With over 65 years of experience, Eavis Garage Doors has proudly served all of South Jersey, Delaware
-        Valley, and Pennsylvania since 1950. We repair all brands and model
+        Valley, and Pennsylvania since 1950. We repair all brands and models
         of garage doors and openers. We provide efficient and reliable
         residential and commercial garage door services. Whether you need a
         broken spring repaired or a new garage door and opener, Eavis Garage
@@ -26,11 +26,7 @@ const FeaturesPage = () => {
 
       <MDBRow>
         <MDBCol lg="2" className="text-center">
-          {/* <img
-            className="img-fluid"
-            src={logo}
-            alt=""
-        /> */}
+          
         </MDBCol>
         <MDBCol lg="10">
           <MDBRow className="mb-3">
@@ -75,13 +71,7 @@ const FeaturesPage = () => {
               <h5 className="font-weight-bold mb-3">Services</h5>
               <ul className="grey-text">
                 <li>Garage Door Openers Repair</li>
-                <li>Broken Garage Door Spring Replacement</li>
-                <li>Broken Garage Door Cable Repair</li>
-                <li>Garage Door Panel Replacement</li>
-                <li>Garage Door Repair Parts</li>
-                <li>Garage Door Opener Remotes</li>
-                <li>Garage Door Roller Replacement</li>
-                <li>Bent Garage Door Track Replacement</li>
+                <li>Garage Door Fixes and Replacement</li>
                 <li>Garage Door Weather Seal Replacement</li>
                 <li>Complete Garage Door Replacement</li>
               </ul>
