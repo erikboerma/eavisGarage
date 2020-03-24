@@ -34,7 +34,7 @@ const FeaturesPage = () => {
               <MDBIcon icon="share" size="lg" className="indigo-text" />
             </MDBCol>
             <MDBCol xl="10" md="11" size="10">
-              <h5 className="font-weight-bold mb-3">Service and Repair</h5>
+              <h5 className="font-weight-bold mb-3" id="title">Service and Repair</h5>
               <p className="grey-text">
                 The certified garage door technicians at Eavis Garage Doors can
                 repair, install, and maintain any brand and model of garage
@@ -50,7 +50,7 @@ const FeaturesPage = () => {
               <MDBIcon icon="share" size="lg" className="indigo-text" />
             </MDBCol>
             <MDBCol xl="10" md="11" size="10">
-              <h5 className="font-weight-bold mb-3">
+              <h5 className="font-weight-bold mb-3" id="title">
                 Why choose Eavis Garage Doors specialists
               </h5>
               <ul className="grey-text">
@@ -68,7 +68,7 @@ const FeaturesPage = () => {
               <MDBIcon icon="share" size="lg" className="indigo-text" />
             </MDBCol>
             <MDBCol xl="10" md="11" size="10">
-              <h5 className="font-weight-bold mb-3">Services</h5>
+              <h5 className="font-weight-bold mb-3" id="title">Services</h5>
               <ul className="grey-text">
                 <li>Garage Door Openers Repair</li>
                 <li>Garage Door Fixes and Replacement</li>
