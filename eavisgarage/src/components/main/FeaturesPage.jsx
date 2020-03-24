@@ -6,7 +6,7 @@ import "../style.css";
 const FeaturesPage = () => {
   return (
     <section className="my-5">
-      <h2 className="h1-responsive font-weight-bold text-center my-5 Oswald">
+      <h2 className="h1-responsive font-weight-bold text-center my-5 Oswald" id="title">
         <img src={logo} />
         <br />
         Eavis Garage Door Specialists<br /><h3>Your neighborhood Garage Door expert</h3>
