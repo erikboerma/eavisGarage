@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/eavisGarage/static/css/main.33cb3ed3.chunk.css",
+    "main.js": "/eavisGarage/static/js/main.911660e5.chunk.js",
+    "main.js.map": "/eavisGarage/static/js/main.911660e5.chunk.js.map",
+    "runtime-main.js": "/eavisGarage/static/js/runtime-main.f78edf90.js",
+    "runtime-main.js.map": "/eavisGarage/static/js/runtime-main.f78edf90.js.map",
+    "static/css/2.ba89ddb9.chunk.css": "/eavisGarage/static/css/2.ba89ddb9.chunk.css",
+    "static/js/2.e50580f5.chunk.js": "/eavisGarage/static/js/2.e50580f5.chunk.js",
+    "static/js/2.e50580f5.chunk.js.map": "/eavisGarage/static/js/2.e50580f5.chunk.js.map",
+    "index.html": "/eavisGarage/index.html",
+    "precache-manifest.567a74a23c093b8fb348d937e2bd1aba.js": "/eavisGarage/precache-manifest.567a74a23c093b8fb348d937e2bd1aba.js",
+    "service-worker.js": "/eavisGarage/service-worker.js",
+    "static/css/2.ba89ddb9.chunk.css.map": "/eavisGarage/static/css/2.ba89ddb9.chunk.css.map",
+    "static/css/main.33cb3ed3.chunk.css.map": "/eavisGarage/static/css/main.33cb3ed3.chunk.css.map",
+    "static/js/2.e50580f5.chunk.js.LICENSE.txt": "/eavisGarage/static/js/2.e50580f5.chunk.js.LICENSE.txt",
+    "static/media/mdb.css": "/eavisGarage/static/media/arrow_right.8ef6a08c.svg",
+    "static/media/commercialOne.jpg": "/eavisGarage/static/media/commercialOne.2b89f8a9.jpg",
+    "static/media/commercialTwo.jpg": "/eavisGarage/static/media/commercialTwo.605dd4c7.jpg",
+    "static/media/all.min.css": "/eavisGarage/static/media/fa-solid-900.cdfec5cf.woff",
+    "static/media/singleLarge.jpg": "/eavisGarage/static/media/singleLarge.fea4aefd.jpg",
+    "static/media/threeDoors.jpg": "/eavisGarage/static/media/threeDoors.392132b0.jpg",
+    "static/media/twoDoors.jpg": "/eavisGarage/static/media/twoDoors.dd2d1ae7.jpg",
+    "static/media/twoDoors1.jpg": "/eavisGarage/static/media/twoDoors1.141135fc.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f78edf90.js",
+    "static/css/2.ba89ddb9.chunk.css",
+    "static/js/2.e50580f5.chunk.js",
+    "static/css/main.33cb3ed3.chunk.css",
+    "static/js/main.911660e5.chunk.js"
+  ]
+}
