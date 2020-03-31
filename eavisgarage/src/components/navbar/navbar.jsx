@@ -31,10 +31,10 @@ render() {
               <MDBNavLink to="#!">Home</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="#work">Recent Work</MDBNavLink>
+              <MDBNavLink to={"/work"}>Recent Work</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="#contact">Contact Us</MDBNavLink>
+              <MDBNavLink to={"/contact"}>Contact Us</MDBNavLink>
             </MDBNavItem>
             
           </MDBNavbarNav>

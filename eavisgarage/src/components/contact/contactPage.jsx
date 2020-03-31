@@ -7,7 +7,7 @@ import {
   MDBBtn,
   MDBInput
 } from "mdbreact";
-import "./contactPage.css"
+import "./contactPage.css";
 
 const ContactPage = () => {
   return (
@@ -21,7 +21,7 @@ const ContactPage = () => {
       </p>
       <MDBRow>
         <MDBCol md="9" className="md-0 mb-5">
-          <form>
+          <form id="contact-form">
             <MDBRow>
               <MDBCol md="6">
                 <div className="md-form mb-0">
